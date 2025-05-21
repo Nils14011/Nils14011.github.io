@@ -1,0 +1,60 @@
+body {
+    background-color: #F6A9A7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    background-color: #F6D0A7;
+    border: thick double #F5A8A6;
+    border-radius: 1rem;
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.mainline_header {
+    color: #444;
+    display: flex;
+    width: 70vw;
+    font-size: 3rem;
+    font-family: American Typewriter, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.main_text {
+    color: #555;
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: American Typewriter, sans-serif;
+    font-size: 1rem;
+}
+
+.yay {
+    font-size: 1.5rem;
+}
+
+.bottom_text {
+    color: #999;
+}
+
+.small {
+    font-size: 0.8rem;
+}

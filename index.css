@@ -1,0 +1,118 @@
+body {
+    background-color: #F6A9A7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    background-color: #F6D0A7;
+    border: thick double #F5A8A6;
+    border-radius: 1rem;
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.mainline_header {
+    color: #444;
+    display: flex;
+    width: 30vw;
+    font-size: 3rem;
+    font-family: American Typewriter, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.main_text {
+    color: #555;
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: American Typewriter, sans-serif;
+    font-size: 1rem;
+}
+
+.button_wrapper {
+    display: flex;
+    height: 10vh;
+    width: 40vw;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.yes {
+    color:#111;
+    background-color: #999;
+    height: 5vh;
+    width: 10vw;
+    border: black solid 2px;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no:hover:before {
+    content: "Ja, Bitte :)"
+}
+
+.no:hover span {
+    display: none;
+}
+
+.no:hover + .yes span{
+    display: none;
+    content: "no";
+}
+
+.no:hover + .yes::before {
+    content: "Nein, Danke :(";
+}
+
+.no {
+    color:#111;
+    background-color: #999;
+    height: 5vh;
+    width: 10vw;
+    border: black solid 2px;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.bottom_text {
+    color: #888;
+    display: flex;
+}
+
+img {
+    height: 20vh;
+    width: 20vw;
+}
+
+.empty {
+    height: 20vh;
+    width: 20vw;
+}
