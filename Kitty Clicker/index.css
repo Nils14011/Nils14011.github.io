@@ -111,7 +111,27 @@ body {
     font-size: 2rem;
 }
 
+.upgradeThree {
+    background-color: #999;
+    height: 15%;
+    width: 90%;
+    border-radius: .2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+
 .Catnip {
+    font-family: American Typewriter, sans-serif;
+}
+
+.Petting {
+    font-family: American Typewriter, sans-serif;
+}
+
+.Wetfood {
     font-family: American Typewriter, sans-serif;
 }
 
@@ -123,6 +143,13 @@ body {
 }
 
 .pricePetting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.priceWetfood {
     display: flex;
     align-items: center;
     justify-content: space-between;
