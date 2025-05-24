@@ -1,0 +1,130 @@
+body {
+    background-color: #F6A9A6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    background-color: #F6D0A7;
+    border: thick double #F5A8A6;
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1rem;
+}
+
+.clicker {
+    height: 80vh;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F6D0A7;
+    border: none;
+}
+
+.wrapperPoints {
+    background-color: #F6D0A7;
+    height: 90%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: American Typewriter, sans-serif;
+}
+
+.counter {
+    background-color: rgba(249, 136, 105, 0.478);
+    height: 10%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: double rgba(249, 136, 105, 0.1);
+    border-radius: 2px;
+}
+
+.upgrades {
+    background-color: rgba(249, 136, 105, 0.478);
+    border: double rgba(249, 136, 105, 0.1);
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.kitty {
+    height: 532px;
+    width: 300px;
+}
+
+.kitty:hover {
+    animation: pulse 1s infinite;
+}
+
+.click {
+    color: #999;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.upgradeOne {
+    background-color: #999;
+    height: 15%;
+    width: 90%;
+    border-radius: .2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.upgradeTwo {
+    background-color: #999;
+    height: 15%;
+    width: 90%;
+    border-radius: .2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.Catnip {
+    font-family: American Typewriter, sans-serif;
+}
+
+.priceCatnip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.pricePetting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
